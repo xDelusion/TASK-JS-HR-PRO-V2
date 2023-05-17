@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Amy Wilson",
+      "position": "Senior Manager",
+      "yearJoined": 2012,
+      "salary": 10000,
+      "bonusPercentage": 0.1
+    },
+    {
+      "name": "David Lee",
+      "position": "General Manager",
+      "yearJoined": 2010,
+      "salary": 12000,
+      "bonusPercentage": 0.15
+    },
+    {
+      "name": "Sarah Miller",
+      "position": "Assistant Manager",
+      "yearJoined": 2013,
+      "salary": 9000,
+      "bonusPercentage": 0.08
+    },
+    {
+      "name": "Robert Turner",
+      "position": "Manager",
+      "yearJoined": 2011,
+      "salary": 8000,
+      "bonusPercentage": 0.12
+    },
+    {
+      "name": "Karen Anderson",
+      "position": "Senior Manager",
+      "yearJoined": 2009,
+      "salary": 11000,
+      "bonusPercentage": 0.13
+    }
+]
+  

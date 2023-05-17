@@ -1,0 +1,32 @@
+[
+    {
+      "name": "John Doe",
+      "position": "Developer",
+      "yearJoined": 2015,
+      "salary": 5000
+    },
+    {
+      "name": "Jane Smith",
+      "position": "Designer",
+      "yearJoined": 2018,
+      "salary": 4500
+    },
+    {
+      "name": "Mark Johnson",
+      "position": "Accountant",
+      "yearJoined": 2017,
+      "salary": 6000
+    },
+    {
+      "name": "Emily Davis",
+      "position": "Manager",
+      "yearJoined": 2014,
+      "salary": 7000
+    },
+    {
+      "name": "Michael Brown",
+      "position": "Developer",
+      "yearJoined": 2016,
+      "salary": 5500
+    }
+]
