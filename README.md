@@ -2,34 +2,49 @@
 
 Certainly! Here's a step-by-step instruction for students that includes the creation of the classes:
 
-Step 1: Create the Employee Class
+## Step 1: Create the Employee Class
 
-- Define a class named "Employee".
-- Inside the class, create a constructor method that takes four parameters: name, position, yearJoined, and salary.
-- Inside the constructor method, assign the parameter values to respective properties of the class using the "this" keyword.
+1. Define a class named "Employee".
+2. Inside the class, create a constructor method that takes four parameters: `name`, `position`, `yearJoined`, and `salary`.
+3. Inside the constructor method, assign the parameter values to respective properties of the class using the "this" keyword.
+4. Create a method called `idBadge` that returns the Employee's position and first name in the following format:
+  ```shell
+  <position>: <First Name>
+  ```
+## Step 2: Create the Manager Class
 
-Step 2: Create the Manager Class
+1. Define a class named "Manager" that extends the "Employee" class.
+2. Inside the class, create a constructor method that takes five parameters: `name`, `position`, `yearJoined`, `salary`, and `bonusPercentage`.
+3. Inside the constructor method, call the super() function to invoke the constructor of the parent class (Employee).
+4. Assign the bonusPercentage parameter value to a new property called "bonusPercentage" of the Manager class.
+5. Create a method called `salaryIncrease` that will receive a parameter called `increaseAmount` that will increase the salary of the manager.
 
-- Define a class named "Manager" that extends the "Employee" class.
-- Inside the class, create a constructor method that takes five parameters: name, position, yearJoined, salary, and bonusPercentage.
-- Inside the constructor method, call the super() function to invoke the constructor of the parent class (Employee).
-- Assign the bonusPercentage parameter value to a new property called "bonusPercentage" of the Manager class.
+## Step 3: Create Employee and Manager Instances
 
-Step 3: Create Employee and Manager Instances
+1. Create instances of the Employee class using `map` and store them into a variable called `employees` using `employeesJSON`.
+2. Create instances of the Manager class using `map` and store them into a variable called `managers` using `managersJSON`.
+3. Create a method called `logManagerInfo`. It should follow this format:
+    ```shell
+    <name>
+    since <workingYears>
+    Bonus % <bonusPercentage>
+    ```
+4. Create a method called `getWorkingYears` which will return the total numbers of years the managers has been working.
 
-- Create instances of the Employee class and the Manager class, providing appropriate values for the constructor parameters.
-- Store the instances in variables.
+## Step 4: Perform Array Operations
 
-Step 4: Perform Array Operations
+Use array methods like forEach, map, filter, find, reduce, and some to perform the following operations on the provided arrays of employees and managers:
 
-- Use array methods like forEach, map, filter, find, reduce, and some to perform the following operations on the provided arrays of employees and managers:
-  1. Display the names of all employees using the forEach method.
-  2. Create an array of employee positions using the map method.
-  3. Filter the employees array to get all developers (position = "Developer") using the filter method.
-  4. Find the employee with the highest salary using the reduce method.
-  5. Display the names and bonuses of all managers using the forEach method.
-  6. Create a new array containing the names of managers whose yearJoined is before 2012 using the filter method.
-  7. Calculate the total salary of all employees using the reduce method.
-  8. Determine if there is at least one manager with a bonusPercentage of 0.1 using the some method.
-  9. Sort the employees array based on their yearJoined in ascending order using the sort method.
-  10. Get the first employee with a salary greater than 6000 using the find method.
+  1. Log the names of all employees using the forEach method using `idBadge` method.
+  2. Filter the employees array to get all developers (position = "Developer") using the filter method.
+  3. Loop through all the managers and increase their salaries by 1000 using the `increaseAmount` method if they have been working for more than 11 years.
+  3. Display iterate over all the managers and invoke the `logManagerInfo` method.
+  4. Create a new array containing the names of managers whose yearJoined is before 2012 and store in into a variable called `seniorExecutives`.
+  5. Return the manager one manager with a bonusPercentage of 0.1 using the some method.
+  6. Get the first employee with a salary greater than 6000 using the find method.
+
+## Bonus
+
+  1. Find the employee with the highest salary using the reduce method.
+  2. Calculate the total salary of all employees using the reduce method.
+  3. Sort the employees array based on their yearJoined in ascending order using the sort method.

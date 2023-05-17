@@ -9,7 +9,7 @@
     {
       "name": "David Lee",
       "position": "General Manager",
-      "yearJoined": 2010,
+      "yearJoined": 2018,
       "salary": 12000,
       "bonusPercentage": 0.15
     },
@@ -23,7 +23,7 @@
     {
       "name": "Robert Turner",
       "position": "Manager",
-      "yearJoined": 2011,
+      "yearJoined": 2015,
       "salary": 8000,
       "bonusPercentage": 0.12
     },
