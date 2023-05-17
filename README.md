@@ -33,7 +33,7 @@ Certainly! Here's a step-by-step instruction for students that includes the crea
 
 ## Step 4: Perform Array Operations
 
-Use array methods like forEach, map, filter, find, reduce, and some to perform the following operations on the provided arrays of employees and managers:
+Use array methods to perform the following operations on the provided arrays of employees and managers:
 
   1. Log the names of all employees using the forEach method using `idBadge` method.
   2. Filter the employees array to get all developers (position = "Developer") using the filter method.
