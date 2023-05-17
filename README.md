@@ -36,12 +36,12 @@ Certainly! Here's a step-by-step instruction for students that includes the crea
 Use array methods to perform the following operations on the provided arrays of employees and managers:
 
   1. Log the names of all employees using the forEach method using `idBadge` method.
-  2. Filter the employees array to get all developers (position = "Developer") using the filter method.
+  2. Create a variable called `superHeroes` which will have ony employees who are developers.
   3. Loop through all the managers and increase their salaries by 1000 using the `increaseAmount` method if they have been working for more than 11 years.
   3. Display iterate over all the managers and invoke the `logManagerInfo` method.
   4. Create a new array containing the names of managers whose yearJoined is before 2012 and store in into a variable called `seniorExecutives`.
-  5. Return the manager one manager with a bonusPercentage of 0.1 using the some method.
-  6. Get the first employee with a salary greater than 6000 using the find method.
+  5. Return the manager one manager with a bonusPercentage of 0.1 using the some method and save it to a variable called `lowestBonus`.
+  6. Get the first employee with a salary greater than 8000 using the find method into a variable called `promotionCandidate`.
 
 ## Bonus
 
