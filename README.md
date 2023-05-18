@@ -40,7 +40,7 @@ Use array methods to perform the following operations on the provided arrays of 
   3. Loop through all the managers and increase their salaries by 1000 using the `increaseAmount` method if they have been working for more than 11 years.
   3. Display iterate over all the managers and invoke the `logManagerInfo` method.
   4. Create a new array containing the names of managers whose yearJoined is before 2012 and store in into a variable called `seniorExecutives`.
-  5. Return the manager one manager with a bonusPercentage of 0.1 using the some method and save it to a variable called `lowestBonus`.
+  5. Return one manager with a bonusPercentage of 0.1 and save it to a variable called `lowestBonus`.
   6. Get the first employee with a salary greater than 8000 using the find method into a variable called `promotionCandidate`.
 
 ## Bonus
